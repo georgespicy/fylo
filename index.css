@@ -149,6 +149,7 @@ body{
     margin-top: 35px !important;
     padding: 20px;
     border-radius: 35px;
+    font-weight: 700 !important;
 }
 
 @media screen and (max-width: 750px){
@@ -179,3 +180,94 @@ body{
     }
 }
 
+.company_qualification{
+    height: auto;
+    width: 100%;
+    background-color: hsl(218, 28%, 13%);
+}
+
+.first_container,
+.second_container{
+    width: 80%;
+    height: auto;
+    margin: auto;
+    display: flex;
+}
+
+.first_company_qualification{
+    height: 150px;
+    width: 50%;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.third_company_qualification{
+    height: 150px;
+    width: 50%;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+
+.second_comapany_qualification{
+    height: 150px;
+    width: 50%;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.fouth_comapany_qualification{
+    height: 150px;
+    width: 50%;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.comapany_qualification_header{
+    font-size: 20px;
+    font-family: Raleway;
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 5px;
+    letter-spacing: 1px;
+}
+
+.company_qualification_words{
+    font-size: 13px;
+    color: hsl(0, 0%, 100%);
+    font-family: Raleway;
+    letter-spacing: 1px;
+}
+
+.first_company_qualification img,
+.third_company_qualification img,
+.second_comapany_qualification img,
+.fouth_comapany_qualification img{
+    margin-bottom: 25px;
+}
+
+@media screen and (max-width: 990px){
+    .first_container,
+    .second_container{
+        width: 90%;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 903px){
+    .first_container,
+    .second_container{
+        display: inline-block;
+        width: 100%;
+    }
+
+    .first_company_qualification,
+    .third_company_qualification,
+    .second_comapany_qualification,
+    .fouth_comapany_qualification{
+        height: 250px;
+        width:  500px;
+        margin: auto;
+    }
+
+}
