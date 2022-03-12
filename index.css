@@ -124,7 +124,7 @@ body{
 
 
 .background_curve{
-    height: 500px;
+    height: 485px;
     width: 100%;
     background-size: cover;
     background-position: center;
@@ -146,7 +146,7 @@ body{
     font-size: 25px;
     background-color: hsl(198, 60%, 50%);
     margin: auto;
-    margin-top: 35px !important;
+    margin-top: 55px !important;
     padding: 20px;
     border-radius: 35px;
     font-weight: 700 !important;
@@ -155,7 +155,7 @@ body{
 @media screen and (max-width: 750px){
     .background_curve{
         width: 100%;
-        height: 500px;
+        height: 250px;
         background-position: center;
         background-image: url(images/bg-curvy-mobile.svg);
     }
@@ -269,5 +269,209 @@ body{
         width:  500px;
         margin: auto;
     }
+
+}
+
+@media screen and (max-width: 501px){
+    .first_container,
+    .second_container{
+        display: inline-block;
+        width: 100%;
+    }
+
+    .first_company_qualification,
+    .third_company_qualification,
+    .second_comapany_qualification,
+    .fouth_comapany_qualification{
+        height: 250px;
+        width:  90%;
+        margin: auto;
+    }
+
+    .company_qualification_words{
+        font-size: 10px;
+        letter-spacing: 0px;
+    }
+
+}
+
+.production_and_feedback{
+    background-color: hsl(218, 28%, 13%);
+    width: auto;
+}
+
+.stay_productive{
+    display: flex;
+    width: 85%;
+    height: auto;
+    margin: auto;
+}
+
+.productive_svg{
+    width: 50%;
+}
+
+.productive_svg img{
+    width: 100%;
+}
+.productive_word{
+    padding-left: 50px;
+    width: 50%;
+}
+
+.productive_word_header{
+    font-size: 35px;
+    font-family: Raleway;
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+    letter-spacing: 1px;
+    margin-top: 100px;
+}
+
+.productive_word_words{
+    font-size: 15px;
+    font-family: Raleway;
+    font-weight: 400;
+    color: hsl(0, 0%, 100%);
+    letter-spacing: 1px;
+}
+
+.productive_word_link{
+    font-size: 15px;
+    font-family: Raleway;
+    font-weight: 400;
+    color: #62E0D9;
+    letter-spacing: 1px;
+    padding-bottom: 5px;
+    border-bottom: #62E0D9 1px solid ;
+    width: 175px;
+    display: flex;
+}
+
+
+@media screen and (max-width: 903px){
+    .stay_productive{
+        display: inline-block;
+        width: 100%;
+    }
+
+    .productive_svg{
+        width: 90%;
+        margin: auto;
+    }
+
+    .productive_word{
+        width: 90%;
+        margin: auto;
+        padding-left: 0px;
+    }
+
+}
+
+.testimony{
+    width: 90%;
+    height: auto;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+}
+
+.first_testimony{
+    height: auto;
+    width: 30%;
+    background-color: hsl(219, 30%, 18%);
+    margin: auto;
+    border-radius: 5px;
+}
+
+.second_testimony{
+    height: auto;
+    width: 30%;
+    background-color: hsl(219, 30%, 18%);
+    border-radius: 5px;
+}
+
+.third_testimony{
+    height: auto;
+    width: 30%;
+    background-color: hsl(219, 30%, 18%);
+    margin: auto;
+    border-radius: 5px;
+}
+
+.first_testimony_profile,
+.second_testimony_profile,
+.third_testimony_profile{
+    height: 50px;
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+
+.third_testimony_speech,
+.second_testimony_speech,
+.first_testimony_speech{
+    width: 80%;
+    margin: auto;
+    color: hsl(0, 0%, 100%);
+    font-family: Raleway;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.third_profile_name,
+.second_profile_name,
+.first_profile_name{
+    margin-top: 10px;
+    color: hsl(0, 0%, 100%);
+    font-family: Raleway;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.third_profile_position,
+.second_profile_position,
+.first_profile_position{
+    color: hsl(0, 0%, 100%);
+    font-family: Raleway;
+    font-size: 7px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.first_testimony_profile img,
+.second_testimony_profile img,
+.third_testimony_profile img{
+    height: 35px;
+    border-radius: 25px;
+    margin-right: 15px;
+}
+
+.testimony_mobile_speech{
+    display: none;
+}
+
+@media screen and (max-width: 903px){
+    .testimony{
+        display: block;
+        width: 90%;
+        height: auto; 
+        margin-top: 30px; 
+    }
+
+    .first_testimony,
+    .second_testimony,
+    .third_testimony{
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .testimony_mobile_speech{
+        display: flex;
+    }
+
+    
 
 }
