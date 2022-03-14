@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 
 *{
     padding: 0;
     margin: 0;
+    list-style: none;
 }
 
 body{
@@ -136,7 +138,7 @@ body{
     margin-top: 10px;
     letter-spacing: 1px;
     font-size: 16px;
-    font-family: Raleway;
+    font-family: Open Sans;
     font-weight: 400;
     color: hsl(0, 0%, 100%);
 }
@@ -235,7 +237,7 @@ body{
 .company_qualification_words{
     font-size: 13px;
     color: hsl(0, 0%, 100%);
-    font-family: Raleway;
+    font-family: Open Sans;
     letter-spacing: 1px;
 }
 
@@ -330,7 +332,7 @@ body{
 
 .productive_word_words{
     font-size: 15px;
-    font-family: Raleway;
+    font-family: Open Sans;
     font-weight: 400;
     color: hsl(0, 0%, 100%);
     letter-spacing: 1px;
@@ -471,7 +473,255 @@ body{
     .testimony_mobile_speech{
         display: flex;
     }
+}
 
+.get_early_access_today{
+    width: 70%;
+    height: auto;
+    position: relative;
+    margin: auto;
+    background-color: hsl(217, 28%, 15%);
+    text-align: center;
+    top: 160px;
+}
+
+.get_early_access_today_header{
+    font-size: 35px;
+    font-family: Raleway;
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+    letter-spacing: 1px;
+    width: auto;
+}
+
+.get_early_access_today_speech{
+    font-size: 15px;
+    font-family: Raleway;
+    font-weight: 400;
+    color: hsl(0, 0%, 100%);
+    letter-spacing: 1px;
+}
+
+.email{
+    height: 50px;
+    width: 45%;
+    padding: 0 1em;
+    border-radius: 25px;
+    background: hsl(0, 0%, 100%);
+    border-color: hsl(0, 0%, 100%);
+    font-family: Raleway;
+    font-weight: 400;
+    font-size: 17px;
+    outline: none;
+    border: none;
+}
+
+.email_button{
+    height: 50px;
+    width: 15%;
+    border-radius: 25px;
+    margin-left: 20px;
+    background-color: #62E0D9;
+    font-family: Raleway;
+    font-weight: 400;
+    Color: hsl(0, 0%, 100%);
+    font-size: 13px;
+    letter-spacing: 1px;
+    outline: none;
+    border: none;
+}
+
+@media screen and (max-width: 1000px){
+    .get_early_access_today{
+        width: 90%;
+        margin: auto;
+    }
     
+    .email{
+        font-size: 15px;
+        display: block;
+        width: 75%;
+        margin: auto;
+        margin-bottom: 25px;
+    }
 
+    .email_button{
+        font-weight: 400;
+        font-size: 15px;
+        display: block;
+        width: 75%;
+        margin: auto;
+    }
+}
+
+.footer_container{
+    width: 100%;
+    height: auto;
+    background-color: hsl(216, 53%, 9%); 
+}
+
+.footer{
+    display: flex;
+    width: 85%;
+    height: auto;
+    margin: auto;
+    gap: 2em;
+}
+
+.fylo_address{
+    width: 30%;
+    height: 400px;
+}
+
+.footer_logo{
+    height: 60px;
+    margin-bottom: 20px;
+}
+
+.footer_address{
+    display: flex;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-family: Raleway;
+    line-height: 35px;
+    font-weight: 400;
+    color: hsl(0, 0%, 100%);
+}
+
+.footer_address img{
+    height: 25px;
+    margin-right: 65px;
+}
+
+.fylo_contact{
+    width: 17%;
+    height: 400px;
+    padding-top: 80px;
+}
+
+.fylo_contact_info{
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-family: Raleway;
+    line-height: 35px;
+    font-weight: 400;
+    color: hsl(0, 0%, 100%);
+}
+
+.fylo_contact_info img{
+    margin-right: 10px;
+    height: 20px;
+}
+
+
+
+.fylo_other_pages{
+    width: 14%;
+    height: 400px;
+    padding-top: 80px;
+}
+
+.fylo_other_pages ul li{
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-family: Raleway;
+    line-height: 35px;
+    font-weight: 400;
+    color: hsl(0, 0%, 100%);
+}
+
+.fylo_term_and_conditions{
+    width: 14%;
+    height: 400px;
+    padding-top: 80px;
+}
+
+.fylo_term_and_conditions ul li{
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-family: Raleway;
+    line-height: 35px;
+    font-weight: 400;
+    color: hsl(0, 0%, 100%);
+}
+
+.social_media{
+    width: 14%;
+    height: 400px;
+    padding-top: 80px;
+    font-size: 35px;
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+}
+
+@media screen and (max-width: 1100px){
+    .footer{
+        width: 70%;
+        height: auto;
+        display: block;
+    }
+
+    .fylo_address{
+        width: 100%;
+        height: auto;
+    }
+
+    .footer_address{
+        font-size: 15px;
+        letter-spacing: 1px;
+        font-family: Raleway;
+        font-weight: 400;
+        line-height: 30px;
+        color: hsl(0, 0%, 100%);
+    }
+
+    .fylo_contact{
+        width: 100%;
+        height: auto;
+    }
+
+    .fylo_other_pages{
+        width: 100%;
+        height: auto;
+    }
+
+    .fylo_term_and_conditions{
+        width: 100%;
+        height: auto;
+    }
+
+    .social_media{
+        width: 100%;
+        height: auto;
+        text-align: left;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .footer{
+        width: 90%;
+    }
+
+    .footer_logo{
+        height: 40px
+    }
+    
+    .footer_address{
+
+    }
+
+    .footer_address img{
+        height: 20px;
+        margin-right: 30px;
+    }
+}
+
+.copyright{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+    font-family: Open Sans;
+    font-size: 20px;
+    letter-spacing: 1px;
 }
